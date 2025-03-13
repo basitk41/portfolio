@@ -1,0 +1,76 @@
+basit-portfolio/
+├── .eslintrc.cjs
+├── .gitignore
+├── index.html
+├── jest.config.js
+├── package.json
+├── tsconfig.json
+├── vite.config.ts
+├── public/
+│   ├── favicon.ico
+│   ├── locales/
+│   │   ├── en/
+│   │   │   ├── translation.json
+│   │   └── de/
+│   │       ├── translation.json
+│   └── images/
+│       ├── profile.jpg
+│       └── projects/
+├── src/
+│   ├── App.tsx
+│   ├── main.tsx
+│   ├── vite-env.d.ts
+│   ├── assets/
+│   ├── components/
+│   │   ├── layout/
+│   │   │   ├── Footer.tsx
+│   │   │   ├── Header.tsx
+│   │   │   ├── Layout.tsx
+│   │   │   └── __tests__/
+│   │   ├── common/
+│   │   │   ├── ThemeToggle.tsx
+│   │   │   ├── LanguageSelector.tsx
+│   │   │   ├── Button.tsx
+│   │   │   └── __tests__/
+│   │   ├── home/
+│   │   ├── about/
+│   │   ├── experience/
+│   │   ├── skills/
+│   │   ├── projects/
+│   │   └── blog/
+│   ├── pages/
+│   │   ├── HomePage.tsx
+│   │   ├── AboutPage.tsx
+│   │   ├── ExperiencePage.tsx
+│   │   ├── SkillsPage.tsx
+│   │   ├── ProjectsPage.tsx
+│   │   ├── BlogPage.tsx
+│   │   ├── BlogPostPage.tsx
+│   │   └── __tests__/
+│   ├── context/
+│   │   ├── ThemeContext.tsx
+│   │   └── __tests__/
+│   ├── hooks/
+│   │   ├── useTheme.ts
+│   │   └── __tests__/
+│   ├── routes/
+│   │   ├── AppRoutes.tsx
+│   │   └── __tests__/
+│   ├── styles/
+│   │   ├── global.css
+│   │   ├── theme.ts
+│   │   └── variables.css
+│   ├── types/
+│   │   ├── index.ts
+│   │   ├── project.ts
+│   │   ├── experience.ts
+│   │   └── blog.ts
+│   ├── utils/
+│   │   ├── i18n.ts
+│   │   └── __tests__/
+│   └── data/
+│       ├── experiences.ts
+│       ├── projects.ts
+│       ├── skills.ts
+│       └── blog-posts.ts
+└── README.md

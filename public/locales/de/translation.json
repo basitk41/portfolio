@@ -1,0 +1,113 @@
+{
+  "common": {
+    "language": "Sprache",
+    "theme": "Thema",
+    "dark": "Dunkel",
+    "light": "Hell",
+    "contact": "Kontakt",
+    "resume": "Lebenslauf",
+    "back": "Zurück",
+    "next": "Weiter",
+    "close": "Schließen",
+    "all": "Alle"
+  },
+  "navigation": {
+    "home": "Startseite",
+    "about": "Über Mich",
+    "experience": "Erfahrung",
+    "skills": "Fähigkeiten",
+    "projects": "Projekte",
+    "blog": "Blog"
+  },
+  "home": {
+    "title": "Basit Ali",
+    "subtitle": "Frontend-fokussierter Fullstack JavaScript Entwickler",
+    "intro": "Ein leidenschaftlicher Entwickler mit über 6 Jahren Erfahrung in der Erstellung skalierbarer, zuverlässiger Anwendungen.",
+    "cta": "Meine Arbeit ansehen"
+  },
+  "about": {
+    "title": "Über Mich",
+    "description": "Frontend-fokussierter Fullstack JavaScript Entwickler mit über 6 Jahren Erfahrung in der Erstellung skalierbarer, zuverlässiger Anwendungen mit JavaScript, TypeScript, React, Node.js und verwandten Ökosystemen. Ich bin geschickt darin, Design- und Entwicklungsteams zu überbrücken und liefere Lösungen, die mit Best Practices wie TDD, DRY, KISS und SOLID-Prinzipien übereinstimmen. Erfahren in der Erstellung benutzerorientierter Anwendungen und der Optimierung von Entwicklungsworkflows für maximale Effizienz.",
+    "education": {
+      "title": "Bildung",
+      "degree": "Bachelor of Science in Informatik",
+      "university": "Islamia College University Peshawar",
+      "period": "09/2016 - 09/2020",
+      "achievements": "Ich habe einen Abschluss mit einem CGPA von 3,89 erworben und wurde als Goldmedaillist meines Jahrgangs geehrt. Während meines Studiums erlangte ich Kenntnisse in mehreren Programmiersprachen."
+    },
+    "languages": {
+      "title": "Sprachen",
+      "english": "Englisch — C1",
+      "urdu": "Urdu — C2",
+      "german": "Deutsch — A2"
+    },
+    "contact": {
+      "title": "Kontakt",
+      "phone": "Telefon",
+      "email": "E-Mail",
+      "form": {
+        "send": "Nachricht senden",
+        "sending": "Nachricht senden...",
+        "message": "Nachricht",
+        "subject": "Betreff",
+        "name": "Name",
+        "email": "E-Mail"
+      }
+    }
+  },
+  "experience": {
+    "title": "Berufserfahrung",
+    "responsibilities": "Verantwortlichkeiten",
+    "achievements": "Erfolge"
+  },
+  "skills": {
+    "title": "Fähigkeiten",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "databases": "Datenbanken",
+    "testing": "Testen & Werkzeuge",
+    "cloud": "Cloud & Architektur"
+  },
+  "projects": {
+    "title": "Projekte",
+    "description": "Eine Sammlung von Projekten, an denen ich im Laufe meiner Karriere gearbeitet habe. Jedes Projekt stellt eine einzigartige Herausforderung und Lösung dar.",
+    "viewDemo": "Demo ansehen",
+    "viewCode": "Code ansehen",
+    "hideHighlights": "Hervorhebungen verbergen",
+    "showHighlights": "Hervorhebungen anzeigen",
+    "noProjectsFound": "Keine Projekte gefunden.",
+    "tryDifferentFilter": "Versuche einen anderen Filter.",
+    "project1Description": "Ein Premier-Finanzintelligenz-Plattform, die finanzielle Daten und Analytiken bereitstellt.",
+    "project2Description": "Eine umfassende E-Commerce-Plattform für Gesundheitsprodukte, die eine einfache Einkaufserlebnis bietet.",
+    "project3Description": "Ein real-time-Dashboard, der SIM-Aktivierungsdaten durch dynamische Tabellen und interaktive Map-Plottung anzeigt.",
+    "project4Description": "Ein zentraler Portal für Telefondatenverwaltung, einschließlich Guthaben, Erstattungsverlauf und Kommissionen.",
+    "project5Description": "Eine Fintech-Handelsplattform mit Echtzeit-Datenvisualisierung, WebSockets und Machine-Learning-Integrationen.",
+    "project6Description": "Eine Gesundheitsplattform, die KI für die medizinische Bildanalyse mit Deep-Learning-Modellen und HIPAA-konformer Datenverarbeitung verwendet.",
+    "project7Description": "Eine innovativere Virtual Reality-Education-Plattform mit immersiven 3D-Umgebungen und real-time-Kollaboration.",
+    "project8Description": "Eine Blockchain-basierte Lieferverfolgungsplattform mit Smart-Contracts und IoT-Integrationen.",
+    "project9Description": "Eine skalierbare Video-Streaming-Plattform mit adaptiver Bitrate-Streaming und Inhaltsempfehlungen.",
+    "project10Description": "Eine IoT-basierte Smart-Home-Management-Plattform mit Energieoptimierungsalgorithmen und Sprachbefehls-Schnittstelle."
+  },
+  "blog": {
+    "title": "Blog",
+    "readMore": "Weiterlesen",
+    "publishedOn": "Veröffentlicht am",
+    "minuteRead": "Min Lesezeit"
+  },
+  "contact": {
+    "title": "Kontakt",
+    "form": {
+      "name": "Name",
+      "email": "E-Mail",
+      "message": "Nachricht",
+      "submit": "Nachricht senden"
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 Basit Ali. Alle Rechte vorbehalten.",
+    "madeWith": "Erstellt mit React, TypeScript und Vite"
+  },
+  "testimonials": {
+    "title": "Was Menschen sagen"
+  }
+}
