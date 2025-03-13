@@ -2,6 +2,7 @@ import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import styled from "styled-components";
 import { FaSearch, FaClock } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 import { blogPosts } from "@/data/blog-posts";
 
@@ -177,7 +178,7 @@ const Tag = styled.span`
   font-size: 0.75rem;
 `;
 
-const ReadMoreButton = styled.a`
+const ReadMoreButton = styled(Link)`
   display: inline-block;
   background-color: var(--bg-alternate);
   color: var(--text-primary);
@@ -307,7 +308,7 @@ const BlogPage = () => {
                   ))}
                 </TagsContainer>
 
-                <ReadMoreButton href={`/blog/${post.id}`}>
+                <ReadMoreButton to={`/blog/${post.id}`}>
                   {t("blog.readMore")}
                 </ReadMoreButton>
               </PostContent>
