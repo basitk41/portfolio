@@ -1,0 +1,113 @@
+{
+  "common": {
+    "language": "Language",
+    "theme": "Theme",
+    "dark": "Dark",
+    "light": "Light",
+    "contact": "Contact",
+    "resume": "Resume",
+    "back": "Back",
+    "next": "Next",
+    "close": "Close",
+    "all": "All"
+  },
+  "navigation": {
+    "home": "Home",
+    "about": "About",
+    "experience": "Experience",
+    "skills": "Skills",
+    "projects": "Projects",
+    "blog": "Blog"
+  },
+  "home": {
+    "title": "Basit Ali",
+    "subtitle": "Frontend-focused Fullstack JavaScript Developer",
+    "intro": "A passionate developer with 6+ years of experience creating scalable, reliable applications.",
+    "cta": "View My Work"
+  },
+  "about": {
+    "title": "About Me",
+    "description": "Frontend-focused Fullstack JavaScript Developer with 6+ years of experience creating scalable, reliable applications using JavaScript, TypeScript, React, Node.js, and related ecosystems. Adept at bridging design and engineering teams, I deliver solutions aligned with best practices like TDD, DRY, KISS, and SOLID principles. Skilled in building user-centric applications and optimizing development workflows for maximum efficiency.",
+    "education": {
+      "title": "Education",
+      "degree": "Bachelor of Science in Computer Science",
+      "university": "Islamia College University Peshawar",
+      "period": "09/2016 - 09/2020",
+      "achievements": "I earned a degree with a 3.89 CGPA, and was honored as the Gold Medalist of my batch. Throughout my studies, I gained proficiency in several programming languages."
+    },
+    "languages": {
+      "title": "Languages",
+      "english": "English — C1",
+      "urdu": "Urdu — C2",
+      "german": "German — A2"
+    },
+    "contact": {
+      "title": "Contact Me",
+      "phone": "Phone",
+      "email": "Email",
+      "form": {
+        "send": "Send Message",
+        "sending": "Sending Message...",
+        "message": "Message",
+        "subject": "Subject",
+        "name": "Name",
+        "email": "Email"
+      }
+    }
+  },
+  "experience": {
+    "title": "Work Experience",
+    "responsibilities": "Responsibilities",
+    "achievements": "Achievements"
+  },
+  "skills": {
+    "title": "Skills",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "databases": "Databases",
+    "testing": "Testing & Tools",
+    "cloud": "Cloud & Architecture"
+  },
+  "projects": {
+    "title": "Projects",
+    "description": "A collection of projects I've worked on throughout my career. Each project represents a unique challenge and solution.",
+    "viewDemo": "View Demo",
+    "viewCode": "View Code",
+    "hideHighlights": "Hide Highlights",
+    "showHighlights": "Show Highlights",
+    "noProjectsFound": "No projects found.",
+    "tryDifferentFilter": "Try selecting a different filter.",
+    "project1Description": "A premier financial intelligence platform providing financial data and analytics.",
+    "project2Description": "A comprehensive e-commerce platform for healthcare products providing a seamless shopping experience.",
+    "project3Description": "A real-time dashboard displaying SIM activation data through dynamic tables and interactive map plotting.",
+    "project4Description": "A centralized portal for telecom data management including balance, recharge history, and commissions.",
+    "project5Description": "A fintech trading platform featuring real-time data visualization, WebSockets, and machine learning integrations.",
+    "project6Description": "A healthcare platform using AI for medical image analysis with deep learning models and HIPAA-compliant data handling.",
+    "project7Description": "An innovative virtual reality education platform with immersive 3D environments and real-time collaboration.",
+    "project8Description": "A blockchain-based supply chain tracking system with smart contracts and IoT integration.",
+    "project9Description": "A scalable video streaming platform with adaptive bitrate streaming and content recommendation.",
+    "project10Description": "An IoT-based smart home management system with energy optimization algorithms and voice command interface."
+  },
+  "blog": {
+    "title": "Blog",
+    "readMore": "Read More",
+    "publishedOn": "Published on",
+    "minuteRead": "min read"
+  },
+  "contact": {
+    "title": "Contact",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "submit": "Send Message"
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 Basit Ali. All rights reserved.",
+    "madeWith": "Made with React, TypeScript, and Vite"
+  },
+  "testimonials": {
+    "title": "What People Say"
+  }
+}
