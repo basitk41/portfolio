@@ -1,32 +1,27 @@
+// i18n.js or similar config file
 import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
-import LanguageDetector from "i18next-browser-languagedetector";
-import Backend from "i18next-http-backend";
 
-i18n
-  // Load translations from public/locales
-  .use(Backend)
-  // Detect user language
-  .use(LanguageDetector)
-  // Pass the i18n instance to react-i18next
-  .use(initReactI18next)
-  // Initialize i18next
-  .init({
-    fallbackLng: "en",
-    debug: process.env.NODE_ENV === "development",
+// Add this import to bundle locales with your app
+import enTranslation from "../../public/locales/en/translation.json";
+import deTranslation from "../../public//locales/de/translation.json";
+// Add all your locales
 
-    interpolation: {
-      escapeValue: false, // React already escapes by default
+i18n.use(initReactI18next).init({
+  resources: {
+    en: {
+      translation: enTranslation,
     },
-
-    // Backend options
-    backend: {
-      loadPath: "/locales/{{lng}}/{{ns}}.json",
+    de: {
+      translation: deTranslation,
     },
-
-    // Namespace settings
-    ns: ["translation"],
-    defaultNS: "translation",
-  });
+    // Add all your languages
+  },
+  lng: "en", // Default language
+  fallbackLng: "en",
+  interpolation: {
+    escapeValue: false,
+  },
+});
 
 export default i18n;
