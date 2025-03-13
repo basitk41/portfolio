@@ -87,7 +87,7 @@ As we move forward, the synergy between human creativity and AI assistance will 
     date: "2025-02-15",
     readTime: 8,
     tags: ["AI", "Frontend Development", "Web Development", "JavaScript"],
-    image: "/images/blog/ai-frontend.png",
+    image: "./images/blog/ai-frontend.png",
     featured: true,
   },
   {
@@ -216,7 +216,7 @@ As with any technology, the key is to use LLMs thoughtfully, with proper plannin
     date: "2025-01-20",
     readTime: 10,
     tags: ["AI", "LLM", "Machine Learning", "NLP"],
-    image: "/images/blog/llm-guide.webp",
+    image: "./images/blog/llm-guide.webp",
     featured: true,
   },
   {
@@ -485,7 +485,7 @@ As with any architectural pattern, the key is to apply micro frontends thoughtfu
     date: "2025-03-05",
     readTime: 12,
     tags: ["Frontend Architecture", "Micro Frontends", "React", "JavaScript"],
-    image: "/images/blog/micro-frontends.webp",
+    image: "./images/blog/micro-frontends.webp",
     featured: false,
   },
   {
@@ -639,7 +639,7 @@ What everyday tasks are you using AI for? I'd love to hear your experiences in t
     date: "2025-02-25",
     readTime: 9,
     tags: ["AI", "Productivity", "Creativity", "Technology", "ChatGPT"],
-    image: "/images/blog/generative-ai.webp",
+    image: "./images/blog/generative-ai.webp",
     featured: true,
   },
   {
@@ -835,10 +835,10 @@ What everyday tasks are you using AI for? I'd love to hear your experiences in t
   By understanding this journey, you can better appreciate where React is headed and how to leverage its latest features in your applications.
   `,
     author: "Basit Ali",
-    date: "2025-04-10",
+    date: "2025-01-10",
     readTime: 13,
     tags: ["React", "Frontend Development", "Server Components", "JavaScript"],
-    image: "/images/blog/react-evolution.png",
+    image: "./images/blog/react-evolution.png",
     featured: false,
   },
   {
@@ -1165,7 +1165,7 @@ What everyday tasks are you using AI for? I'd love to hear your experiences in t
   Whether you prefer the simplicity of Zustand, the atomic approach of Jotai, or the robustness of Redux Toolkit, today's state management options offer better developer experiences without sacrificing performance. The key is understanding the trade-offs and selecting the right tool for your specific use case.
   `,
     author: "Basit Ali",
-    date: "2025-03-18",
+    date: "2025-02-18",
     readTime: 12,
     tags: [
       "React",
@@ -1174,7 +1174,7 @@ What everyday tasks are you using AI for? I'd love to hear your experiences in t
       "JavaScript",
       "Frontend Development",
     ],
-    image: "/images/blog/state-management.jpg",
+    image: "./images/blog/state-management.jpg",
     featured: false,
   },
   {
@@ -1596,10 +1596,10 @@ Building type-safe APIs with Node.js, TypeScript, and GraphQL creates a robust d
 The result is a more reliable, maintainable, and developer-friendly API that provides guarantees about the data flowing through your system. While the initial setup requires some investment, the long-term benefits in reduced bugs and improved developer productivity make it well worth the effort.
 `,
     author: "Basit Ali",
-    date: "2025-03-25",
+    date: "2025-02-20",
     readTime: 15,
     tags: ["Node.js", "TypeScript", "GraphQL", "API", "Backend Development"],
-    image: "/images/blog/typescript-api.png",
+    image: "./images/blog/typescript-api.png",
     featured: false,
   },
   {
@@ -1694,7 +1694,7 @@ The result is a more reliable, maintainable, and developer-friendly API that pro
     date: "2025-03-10",
     readTime: 12,
     tags: ["React", "CSS", "Frontend Development", "Styling", "Tailwind CSS"],
-    image: "/images/blog/react-styling.jpeg",
+    image: "./images/blog/react-styling.jpeg",
     featured: true,
   },
   {
@@ -2080,7 +2080,7 @@ Remember that microservices add complexity, so start with clear boundaries, effe
       "Architecture",
       "DevOps",
     ],
-    image: "/images/blog/microservices-nodejs.webp",
+    image: "./images/blog/microservices-nodejs.webp",
     featured: true,
   },
   {
@@ -2915,7 +2915,7 @@ Remember that microservices add complexity, so start with clear boundaries, effe
       "SSE",
       "Backend Development",
     ],
-    image: "/images/blog/realtime-nodejs.webp",
+    image: "./images/blog/realtime-nodejs.webp",
     featured: true,
   },
   {
@@ -3894,7 +3894,7 @@ Remember that microservices add complexity, so start with clear boundaries, effe
       "OAuth",
       "Backend Development",
     ],
-    image: "/images/blog/nodejs-auth.png",
+    image: "./images/blog/nodejs-auth.png",
     featured: false,
   },
 ];

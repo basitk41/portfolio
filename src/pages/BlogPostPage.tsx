@@ -247,7 +247,7 @@ const BlogPostPage = () => {
       </PostHeader>
 
       <FeaturedImage
-        src={post.image || "/images/blog-placeholder.jpg"}
+        src={post.image || "./images/blog-placeholder.jpg"}
         alt={post.title}
       />
 

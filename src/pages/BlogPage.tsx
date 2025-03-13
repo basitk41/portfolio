@@ -284,7 +284,7 @@ const BlogPage = () => {
               <PostImage
                 style={{
                   backgroundImage: `url(${
-                    post.image || "/images/blog-placeholder.jpg"
+                    post.image || "./images/blog-placeholder.jpg"
                   })`,
                 }}
               />

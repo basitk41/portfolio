@@ -145,7 +145,7 @@ const FeaturedProjects = () => {
             <ProjectImage
               style={{
                 backgroundImage: `url(${
-                  project.image || "/images/project-placeholder.jpg"
+                  project.image || "./images/project-placeholder.jpg"
                 })`,
               }}
             />

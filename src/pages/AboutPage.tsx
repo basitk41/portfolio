@@ -360,7 +360,7 @@ const AboutPage = () => {
 
       <ProfileSection>
         <ProfileImageContainer>
-          <ProfileImage src="/images/profile.jpg" alt="Basit Ali" />
+          <ProfileImage src="./images/profile.jpg" alt="Basit Ali" />
         </ProfileImageContainer>
 
         <ProfileContent>

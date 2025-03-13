@@ -24,7 +24,7 @@ export const projects: Project[] = [
     role: "Senior Engineer, Full Stack",
     company: "S&P Global",
     period: "2023 - Present",
-    image: "/images/projects/capital-iq.png",
+    image: "./images/projects/capital-iq.png",
     demoUrl:
       "https://www.spglobal.com/market-intelligence/en/solutions/products/sp-capital-iq-pro",
     codeUrl: null, // Private repository
@@ -52,7 +52,7 @@ export const projects: Project[] = [
     role: "Frontend Developer",
     company: "Lean Scale",
     period: "2022 - 2023",
-    image: "/images/projects/al-habib.png",
+    image: "./images/projects/al-habib.png",
     demoUrl: "https://alhabibpharmacy.com/",
     codeUrl: null, // Private repository
     featured: true,
@@ -82,7 +82,7 @@ export const projects: Project[] = [
     role: "Software Engineer",
     company: "Evamp & Saanga",
     period: "2021 - 2022",
-    image: "/images/projects/salam-dashboard.jpeg",
+    image: "./images/projects/salam-dashboard.jpeg",
     demoUrl: "https://salam.sa/en/personal",
     codeUrl: null, // Private repository
     featured: true,
@@ -109,7 +109,7 @@ export const projects: Project[] = [
     role: "Software Engineer",
     company: "Evamp & Saanga",
     period: "2021 - 2022",
-    image: "/images/projects/salam-portal.jpeg",
+    image: "./images/projects/salam-portal.jpeg",
     demoUrl: "https://salammobile.sa/en/",
     codeUrl: null, // Private repository
     featured: false,
@@ -141,7 +141,7 @@ export const projects: Project[] = [
     role: "Frontend Developer",
     company: "Other",
     period: "2022 - 2023",
-    image: "/images/projects/quantum-trading.png",
+    image: "./images/projects/quantum-trading.png",
     demoUrl: null,
     codeUrl: null, // Private repository
     featured: true,
@@ -173,7 +173,7 @@ export const projects: Project[] = [
     role: "Full Stack Developer",
     company: "Other",
     period: "2021 - 2022",
-    image: "/images/projects/mediscan-ai.png",
+    image: "./images/projects/mediscan-ai.png",
     demoUrl: "https://mediscan-ai.example.com",
     codeUrl: null, // Private repository
     featured: true,
@@ -203,7 +203,7 @@ export const projects: Project[] = [
   //   role: "Frontend Engineer",
   //   company: "Other",
   //   period: "2022",
-  //   image: "/images/projects/eduverse.png",
+  //   image: "./images/projects/eduverse.png",
   //   demoUrl: "https://eduverse.example.com",
   //   codeUrl: "https://github.com/yourusername/eduverse-demo",
   //   featured: true,
@@ -234,7 +234,7 @@ export const projects: Project[] = [
     role: "Full Stack Developer",
     company: "Other",
     period: "2021",
-    image: "/images/projects/tracechain.png",
+    image: "./images/projects/tracechain.png",
     demoUrl: "https://tracechain.example.com",
     codeUrl: null, // Private repository
     featured: false,
@@ -265,7 +265,7 @@ export const projects: Project[] = [
     role: "Full Stack Developer",
     company: "Other",
     period: "2020 - 2021",
-    image: "/images/projects/streamfusion.jpeg",
+    image: "./images/projects/streamfusion.jpeg",
     demoUrl: "https://streamfusion.example.com",
     codeUrl: null, // Private repository
     featured: false,
@@ -294,7 +294,7 @@ export const projects: Project[] = [
     role: "Full Stack Developer",
     company: "Other",
     period: "2020",
-    image: "/images/projects/homeiq.jpg",
+    image: "./images/projects/homeiq.jpg",
     demoUrl: "https://homeiq.example.com",
     codeUrl: null, // Private repository
     featured: false,

@@ -156,7 +156,7 @@ This is the content of your blog post in markdown format.
   date: '2025-01-01',
   readTime: 5,
   tags: ['Tag1', 'Tag2'],
-  image: '/images/blog/your-image.jpg',
+  image: './images/blog/your-image.jpg',
   featured: true
 }
 ```
