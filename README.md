@@ -2,7 +2,7 @@
 
 A modern, responsive portfolio website built with React, TypeScript, and Vite. Features include light/dark mode, multilingual support (English and German), and a technical blog focused on AI, LLMs, and modern web development.
 
-[Link](https://basit-dev.de)
+[Portfolio Link]([https://basit-dev.de](https://basit-dev.de))
 ![Portfolio Screenshot](screenshot.png)
 
 ## 🌟 Features
