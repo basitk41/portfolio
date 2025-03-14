@@ -32,14 +32,15 @@
   --chat--border-radius: 0.25rem;
   --chat--transition-duration: 0.15s;
 
-  --chat--window--width: 400px;
+  --chat--window--width: 350px;
   --chat--window--height: 450px;
 
-  --chat--header-height: 50px;
+  --chat--header-height: 60px;
   --chat--header--background: #3267e3;
-  --chat--header--padding: 0px 10px 0px 20px;
+  --chat--header--padding: 0px 20px 0px 20px;
   --chat--toggle--size: 50px;
   --chat--color-typing: #404040;
+  --chat--message--font-size: 0.78rem;
 }
 
 /* Dark theme */
@@ -84,12 +85,12 @@
   --chat--border-radius: 0.25rem;
   --chat--transition-duration: 0.15s;
 
-  --chat--window--width: 400px;
+  --chat--window--width: 350px;
   --chat--window--height: 450px;
 
-  --chat--header-height: 50px;
+  --chat--header-height: 60px;
   --chat--header--background: #3267e3;
-  --chat--header--padding: 0px 10px 0px 20px;
+  --chat--header--padding: 0px 20px 0px 20px;
   --chat--header--border-top: none;
   --chat--header--border-bottom: none;
   --chat--header--border-bottom: none;
@@ -101,7 +102,7 @@
 
   --chat--textarea--height: 50px;
 
-  --chat--message--font-size: 1rem;
+  --chat--message--font-size: 0.78rem;
   --chat--message--padding: var(--chat--spacing);
   --chat--message--border-radius: var(--chat--border-radius);
   --chat--message-line-height: 1.8;

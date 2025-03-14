@@ -249,4 +249,4 @@ MIT License
 
 Basit Ali - [basitk41@gmail.com](mailto:basitk41@gmail.com)
 
-Project Link: https://github.com/basitk41/portfolio
+Project Link: https://basit-dev.de

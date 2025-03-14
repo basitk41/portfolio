@@ -37,9 +37,9 @@
     },
     "languages": {
       "title": "Sprachen",
-      "english": "Englisch — C1",
-      "urdu": "Urdu — C2",
-      "german": "Deutsch — A2"
+      "english": "Englisch — Fluent",
+      "urdu": "Urdu — Muttersprache",
+      "german": "Deutsch — Anfänger"
     },
     "contact": {
       "title": "Kontakt",
@@ -62,6 +62,8 @@
   },
   "skills": {
     "title": "Fähigkeiten",
+    "description": "Eine umfassende Ubersicht meiner technischen Fähigkeiten und Erfahrung in verschiedenen Bereichen.",
+    "allSkills": "Alle Fähigkeiten",
     "frontend": "Frontend",
     "backend": "Backend",
     "databases": "Datenbanken",
@@ -92,7 +94,9 @@
     "title": "Blog",
     "readMore": "Weiterlesen",
     "publishedOn": "Veröffentlicht am",
-    "minuteRead": "Min Lesezeit"
+    "minuteRead": "Min Lesezeit",
+    "noPostsFound": "Blogpost nicht gefunden.",
+    "noPostsFoundDescription": "Der Blogpost, den Sie suchen, existiert nicht oder wurde gelöscht."
   },
   "contact": {
     "title": "Kontakt",
