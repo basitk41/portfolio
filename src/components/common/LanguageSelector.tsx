@@ -2,10 +2,17 @@ import { useState, useRef, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import styled from "styled-components";
 import { FaGlobe, FaChevronDown } from "react-icons/fa";
+import "@n8n/chat/style.css";
+import { createChat } from "@n8n/chat";
 
-const languages = [
-  { code: "en", name: "English" },
-  { code: "de", name: "Deutsch" },
+enum Language {
+  EN = "en",
+  DE = "de",
+}
+
+const languages: { code: Language; name: string }[] = [
+  { code: Language.EN, name: "English" },
+  { code: Language.DE, name: "Deutsch" },
 ];
 
 const Container = styled.div`
@@ -107,6 +114,41 @@ const LanguageSelector = () => {
       document.removeEventListener("mousedown", handleClickOutside);
     };
   }, []);
+
+  useEffect(() => {
+    createChat({
+      webhookUrl:
+        "https://n8n.rest/webhook/78f1134c-f527-4114-9ae6-dd32f434df19/chat",
+      showWelcomeScreen: false,
+      // @ts-ignore
+      defaultLanguage: `${currentLanguage.code}`,
+      initialMessages:
+        currentLanguage.code === "en"
+          ? ["Hi there! 👋", "My name is Basit. How can I assist you today?"]
+          : [
+              "Hallo! 👋",
+              "Mein Name ist Basit. Wie kann ich Ihnen heute helfen?",
+            ],
+      i18n: {
+        // @ts-ignore
+        en: {
+          title: "",
+          subtitle: "Start a chat. We're here to help you 24/7.",
+          footer: "",
+          getStarted: "New Conversation",
+          inputPlaceholder: "Type your question..",
+        },
+        // @ts-ignore
+        de: {
+          title: "",
+          subtitle: "Start a chat. Wir sind hier, um Ihnen zu helfen.",
+          footer: "",
+          getStarted: "Neue Konversation",
+          inputPlaceholder: "Geben Sie Ihre Frage ein..",
+        },
+      },
+    });
+  }, [isOpen]);
 
   return (
     <Container ref={dropdownRef}>
