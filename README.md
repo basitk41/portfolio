@@ -13,6 +13,22 @@ A modern, responsive portfolio website built with React, TypeScript, and Vite. F
 - 📝 **Technical Blog**: Featured articles on AI, LLMs, and modern web development
 - 🧪 **Comprehensive Testing**: Unit tests with Jest and React Testing Library
 - 🧩 **Modular Architecture**: Well-organized component structure for maintainability
+- 🤖 **AI Integration**: Custom AI agent implementation showcasing practical AI applications
+
+## 🤖 AI Projects
+
+### Custom AI Agent in N8N
+
+I've implemented a customized AI agent using N8N workflow automation platform, demonstrating my practical experience with artificial intelligence:
+
+- **Custom Design Integration**: Implemented with full support for both light and dark themes to match different UI preferences
+- **Multilingual Support**: Built with localization capabilities, supporting multiple languages for global users
+- **Workflow Automation**: Created intelligent workflows that can process and respond to various triggers and data inputs
+- **API Integration**: Connected the agent with various external services and APIs for enhanced functionality
+- **Conversational Interface**: Designed natural language processing capabilities for intuitive human-computer interaction
+- **Adaptive Logic**: Implemented decision-making logic that adjusts based on context and user inputs
+
+This project showcases my ability to build practical AI solutions that integrate seamlessly with existing systems while maintaining excellent user experience across different languages and visual preferences.
 
 ## 🚀 Getting Started
 
@@ -123,6 +139,7 @@ basit-portfolio/
 - **Testing**: [Jest](https://jestjs.io/), [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/)
 - **Icons**: [React Icons](https://react-icons.github.io/react-icons/)
 - **Markdown Rendering**: [React Markdown](https://github.com/remarkjs/react-markdown)
+- **AI Integration**: [N8N](https://n8n.io/) for workflow automation and AI agent implementation
 
 ## 🔧 Configuration
 
