@@ -51,7 +51,9 @@
         "message": "Message",
         "subject": "Subject",
         "name": "Name",
-        "email": "Email"
+        "email": "Email",
+        "successMessage": "Message sent successfully!",
+        "errorMessage": "Failed to send message. Please try again later."
       }
     }
   },
