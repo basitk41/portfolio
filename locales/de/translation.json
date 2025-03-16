@@ -51,7 +51,9 @@
         "message": "Nachricht",
         "subject": "Betreff",
         "name": "Name",
-        "email": "E-Mail"
+        "email": "E-Mail",
+        "successMessage": "Nachricht erfolgreich gesendet!",
+        "errorMessage": "Nachricht konnte nicht gesendet werden. Bitte versuche es erneut."
       }
     }
   },
